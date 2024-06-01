@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "simple-transformer-demo"
+version = "0.1.0"
+description = "A transformer demo in PyTorch written from scratch"
+authors = ["Evan Mattson"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.1.2"
+datasets = "^2.15.0"
+tokenizers = "^0.15.0"
+tensorboard = "^2.15.1"
+torchmetrics = "^1.2.1"
+matplotlib = "^3.8.3"
+black = "^24.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

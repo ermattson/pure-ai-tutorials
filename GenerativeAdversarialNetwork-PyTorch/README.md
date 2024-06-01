@@ -1,0 +1,1 @@
+A basic Generative Adversarial Network (GAN) created using PyTorch for the MNIST Fashion Dataset.
